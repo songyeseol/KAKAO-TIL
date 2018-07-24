@@ -91,7 +91,7 @@ o	방법론 개선
 o	하드웨어 발전
 o	모델링 사용성 개선 - probabilisic programming language 발전 (PyMC4, tensor의 베이지만관려모듈) 
 
-
+즉, 사람이 하고 있는 논리회로를 수학적으로 풀어낸 것. 
 
 
 
