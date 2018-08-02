@@ -20,7 +20,7 @@
 - 색다른 지원자 느낌 뿜뿜
 - 형식적인 지원서에 더해 태블로 퍼블릭 URL만 붙여주면 있어보
 
-나도 이제 정착할 곳을 찾아야하니 어디 한번 맨들어보자, **Tableau Resume**
+언젠가 가고싶은 페이스북 지원용으로 한번 맨들어보자, **Tableau Resume**
 
 ## random articles on making a resume with Tableau
 
@@ -32,4 +32,10 @@ https://public.tableau.com/en-us/s/blog/2016/09/how-create-interactive-resume-ta
 ## 1. 일단 내가 뭘했나 정리를 좀 해본다. (feat. 인생의 회의감)
 
 하 정리가 안된닿ㅎㅎㅎㅎㅎㅎ  
+정리를 못하겠으니 디자인부터 생각해본다.  
+아 그냥 다 만들고 정리해야겠당!  
+
+![image](https://user-images.githubusercontent.com/28600272/43613644-1fbcc948-96eb-11e8-864e-0fde3d81a92b.png)
+
+(꼬깃꼬깃 만드는 중...)
 
