@@ -33,7 +33,29 @@ https://public.tableau.com/en-us/s/blog/2016/09/how-create-interactive-resume-ta
 
 하 정리가 안된닿ㅎㅎㅎㅎㅎㅎ  
 정리를 못하겠으니 디자인부터 생각해본다.  
-아 그냥 다 만들고 정리해야겠당!  
+일단 매우 단순하게 페이스북 인터페이스를 본따 만들어볼 예정이다.  
+대충 페이스북의 프로필 페이지에 어떤 박스들이 들어가는지 눈으로 훑었다.  
+
+그리고는 대충 인터넷에 돌아다니는 레쥬메들을 보니,  
+레쥬메에 기본적으로 들어가는  
+- experience 
+- education 
+
+기술적인 면을 어필할 수 있는
+- skillset
+
+그리고 기타 등등 
+- interests
+- strengths 
+
+이것들을 합쳐 
+1. experience timeline (experience+education)
+2. skillset
+3. checkin
+4. social links
+5. interests
+이렇게 총 5개의 박스를 만들려고한다.  
+
 
 ![image](https://user-images.githubusercontent.com/28600272/43613644-1fbcc948-96eb-11e8-864e-0fde3d81a92b.png)
 
