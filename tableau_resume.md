@@ -56,9 +56,13 @@ https://public.tableau.com/en-us/s/blog/2016/09/how-create-interactive-resume-ta
 5. interests
 이렇게 총 5개의 박스를 만들려고한다.  
 
+[완성이긴하나 좀 못생김, 데스크탑 버전에서는 안틀어지는 레이아웃이 조금씩 틀어짐, 하 쓸모없다](https://public.tableau.com/views/YeaseulSong/YeaseulsResume?:embed=y&:display_count=yes)
+
 *만드는 법은 천천히 정리해야지...*
 
 *그리고 마크다운에 HTML이나 IFRAME으로 넣고 싶었는데, 안되나보당. 그냥 스샷 첨부*
+
+
 
 ![image](https://user-images.githubusercontent.com/28600272/43853654-bcd47c3c-9b7b-11e8-9960-6f296f21bb88.png)
 
