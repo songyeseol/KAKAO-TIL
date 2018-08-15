@@ -1,5 +1,7 @@
 # ARIMA (Auto-regressive Integrated Moving Average)
 
+[BLOG LINK](http://www.dodomira.com/2016/04/21/arima_in_r/)
+
 - 시계열 분석 기법의 한 종류
 - 과거 관측값과 오차를 사용해서 현재의 시계열 값을 설명하는 ARMA 모델을 일반화한 모델
 - ARMA: 안정적 시계열에만 적용 가능 / ARIMA: 비안정적 시계열의 특징을 보여도 적용 가능 (안정화 과정 필요)
