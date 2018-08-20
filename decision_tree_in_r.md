@@ -91,11 +91,9 @@
 ### (rpart) 패키지 이용한 iris 데이터 의사결정나무 분석 
 
 ```{r}
-
 library(rpart)
 k = rpart(Species~., data=iris)
 k
-
 ```
 
 #### (rpart.plot()) 사용한 다양한 시각화 
@@ -103,9 +101,7 @@ k
 ```{r}
 install.packages('rpart.plot')
 library(rpart.plot)
-
 prp(k, type=4, extra=2, digits=3)
-
 ```
 
 #### (rpart) confusionMatri 함수 통한 정확성 평가
