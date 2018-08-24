@@ -104,4 +104,98 @@ cor(a,b) # 상관계수
 
 summary(a) 
 
+#------------------------------------------------ 데이터 핸들링
+
+### 벡터형 변수 
+
+b = c('a', 'b','c')
+b[2]
+b[-3]
+b[c(1,2)]
+
+### 반복구문과 조건문 
+
+# for 반복구문
+
+a = c()
+
+for (i in 1:9) {
+  a[i]= i*i
+}
+
+a
+
+# while 반복구문
+
+x=1
+
+while(x<5) {
+  x=x+1
+  print(x)
+}
+
+# if-else 조건문
+
+x = 1
+ifelse(x>0, '양수', '양수아님')
+
+### 사용자 정의 함수
+
+foruse = function(a) {
+  isum = 0
+  for (i in 1:a){
+    isum = isum + i 
+  }
+  print(isum)
+}
+
+foruse(3)
+
+### 기타 유용한 함수 
+
+# paste
+
+number = 1:5
+alphabet = c('a','b','c')
+
+paste(number, alphabet)
+
+paste(number, alphabet, sep='to the')
+
+# substr
+
+country = c('korea','japan')
+substr(country,1,2)
+
+# 자료형 데이터 구조변환
+
+as.data.frame()
+as.list()
+as.matric()
+as.vector()
+as.factor()
+as.integer() # 실수를 정수로 
+as.numeric() 
+as.logical() # 0은 false
+
+as.Date() # 문자열을 날짜로 / 기본으로 문자열이 yyyy-dd-mm일거라고 가정 
+as.Date('01/13/2018',format='%m/%d/%y') # 날짜형 스타일 지정 
+
+format(Sys.Date()) # 날짜를 문자열로 
+
+
+format(Sys.Date(), '%a') # 요일 (금)
+format(Sys.Date(), '%A') # 요일 (금요일)
+
+format(Sys.Date(), '%b') # 월 (8)
+format(Sys.Date(), '%B') # 월 (8월)
+
+format(Sys.Date(), '%c') # full (금 8 24 00:00:00 2018)
+format(Sys.Date(), '%C') # ??
+
+format(Sys.Date(), '%d') # 일 (14)
+format(Sys.Date(), '%D') # FULL (08/24/18)
+
+format(Sys.Date(), '%y') # 연도 (18)
+format(Sys.Date(), '%Y') # 연도 (2018)
 
