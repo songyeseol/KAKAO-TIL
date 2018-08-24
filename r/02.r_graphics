@@ -1,0 +1,24 @@
+#------------------------------- 그래픽 기능
+
+##### 산점도그래프 plot()
+
+math = c(94,12,23,42,36,78,76,54,32,34)
+science = c(90,30,20,30,50,60,80,20,70,10)
+
+plot(math, science)
+
+##### 산점도 행렬 pairs()
+
+pairs(iris[1:4], main='Anderson Iris Data', pch = 21, bg = c('red','green','blue')[unclass(iris$Species)])
+# main = 제목 / pch = 점모양 / bg = 색상 
+
+##### 히스토그램 hist() /  상자그림 boxplot()
+
+height = c(182,157,160,170,140,160,170,180,189,190)
+
+hist(height)
+hist(height, breaks=3) # 계급구간 수 설정 
+hist(height, probability=T) # 상대도수가 Yaxis (상대도수 히스토그램)
+hist(height, probability=T, ylim=c(0, 0.04)) # Y축 범위 설정 
+     
+boxplot(height)
