@@ -15,5 +15,5 @@ R | [통계분석 in R](https://github.com/songyeseol/KAKAO-TIL/tree/master/r) |
 Statistics | [통계학 스터디](https://github.com/songyeseol/KAKAO-TIL/tree/master/stats)  |  
 Tableau | [태블로로 이력서 만들기](https://github.com/songyeseol/KAKAO-TIL/tree/master/tableau_resume) |  
 
-
+*빨리 모두 완성시켜봅시다..*
 
