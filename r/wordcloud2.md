@@ -25,7 +25,7 @@ fonts() # embedding되어있는 폰트 확인 가능
 
 pal = brewer.pal(11,'RdYlGn') # 컬러 팔레트 선정 
 
-wordcloud2(data7[1:500,], size=1, color='random-dark', rotateRatio = 0, fontFamily = 'Kakao Bold') 
+wordcloud2(data7[1:500,], size=1, color=pal, rotateRatio = 0, fontFamily = 'Kakao Bold') 
 ```
 
 ![image](https://user-images.githubusercontent.com/28600272/46255503-a7ae5400-c4d8-11e8-8287-668233e5936a.png)
