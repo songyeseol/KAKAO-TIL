@@ -27,3 +27,13 @@ pal = brewer.pal(11,'RdYlGn') # 컬러 팔레트 선정
 
 wordcloud2(data7[1:500,], size=1, color='random-dark', rotateRatio = 0, fontFamily = 'Kakao Bold') 
 ```
+
+![image](https://user-images.githubusercontent.com/28600272/46255503-a7ae5400-c4d8-11e8-8287-668233e5936a.png)
+
+### (참고) RColorBrewer 팔레트 
+
+[R documentation on RColorBrewer](https://www.rdocumentation.org/packages/RColorBrewer/versions/1.1-2/topics/RColorBrewer)  
+[R Color Palette](https://moderndata.plot.ly/create-colorful-graphs-in-r-with-rcolorbrewer-and-plotly/)  
+![image](https://user-images.githubusercontent.com/28600272/46255534-17244380-c4d9-11e8-917b-b59d7fb8e8a5.png)
+
+
